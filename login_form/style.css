@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --white: #f0f0f0;
+  --black: #0f2027;
+  --green-dark: #203a43;
+  --green-olive: #2c5364;
+  --blue: rgb(41, 57, 194);
+  --green: #90c372;
+  --red: #ff3860;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    var(--black),
+    var(--green-dark),
+    var(--green-olive)
+  );
+}
+.container {
+  margin: 20vh auto 0 auto;
+}
+
+#heading {
+  padding-bottom: 1em;
+  color: var(--white);
+  text-align: center;
+}
+#info {
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 4px;
+  background: whitesmoke;
+}
+#info h1 {
+  color: var(--black);
+  text-align: center;
+  padding: 6px;
+}
+#btn {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background: var(--blue);
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.fields input {
+  border: 2px solid var(--white);
+  border-radius: 4px;
+  display: block;
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.fields input:focus {
+  outline: 0;
+}
+
+.fields input.error {
+  border-color: var(--red);
+}
+
+.fields input.success {
+  border-color: var(--green);
+}
+
+.fields .error {
+  color: var(--red);
+  font-size: 12px;
+}

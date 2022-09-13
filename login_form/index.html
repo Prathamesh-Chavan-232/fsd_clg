@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script defer src="script.js"></script>
+    <title>Form validation Js</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading">Form validation using javascript</h1>
+      <form action="" id="info">
+        <h1>Registration</h1>
+        <div class="fields">
+          <label for="name">User-name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            value=""
+            placeholder="steve rogers"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="fields">
+          <label for="age">Age</label>
+          <input type="text" name="age" id="age" value="" placeholder="112" />
+          <div class="error"></div>
+        </div>
+        <div class="fields">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            value=""
+            placeholder="firstavenger@gmail.com"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="fields">
+          <label for="pass">Password</label>
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            value=""
+            placeholder="must have atleast 6 characters, atleast 1 special character"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="fields">
+          <label for="confirm">Confirm Password</label>
+          <input
+            type="password"
+            name="confirm"
+            id="confirm"
+            value=""
+            placeholder="Retype password"
+          />
+          <div class="error"></div>
+        </div>
+        <button id="btn" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
