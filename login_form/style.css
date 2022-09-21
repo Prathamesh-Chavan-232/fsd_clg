@@ -74,10 +74,16 @@ body {
 }
 
 .fields input.error {
+  background: white url(images/invalid.png) no-repeat;
+  background-position: 97%;
+  background-size: 8% 85%;
   border-color: var(--red);
 }
 
 .fields input.success {
+  /* background: white url(images/valid.png) no-repeat right;
+  background-position: 97%;
+  background-size: 8% 85%; */
   border-color: var(--green);
 }
 
