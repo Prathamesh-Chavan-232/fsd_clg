@@ -1,7 +1,7 @@
 # FSD Lab Assignments
  
 FSD - Full stack web development<br/>
-Contains all lab assignments for FSD College course for TY sem 1<br/>
+Contains all lab assignments for FSD College course for TY sem 1<br/><br/><br/>
 **Assignments** -<br/>
 &emsp;Lab 1  -  Git & Github<br/>
 &emsp;Lab 2  -  Html & CSS basics (Make a table & form)<br/>
