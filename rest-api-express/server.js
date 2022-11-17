@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   res.end("Welcome to my REST api");
 });
 
-app.get("/show_data", (req, res) => {
+app.get("/my-data", (req, res) => {
   readFile(__dirname + "/" + "data.json", "utf8", (err, data) => {
     res.end(data);
   });
